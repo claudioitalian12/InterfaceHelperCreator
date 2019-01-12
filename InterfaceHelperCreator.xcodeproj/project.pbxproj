@@ -12,6 +12,15 @@
 		5DEC85A821E9DD1700C888DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEC85A621E9DD1700C888DE /* Main.storyboard */; };
 		5DEC85AA21E9DD1800C888DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DEC85A921E9DD1800C888DE /* Assets.xcassets */; };
 		5DEC85AD21E9DD1800C888DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEC85AB21E9DD1800C888DE /* LaunchScreen.storyboard */; };
+		5DEC85BC21E9DD3D00C888DE /* extesionInizializeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC85B521E9DD3C00C888DE /* extesionInizializeObject.swift */; };
+		5DEC85BD21E9DD3D00C888DE /* extensionSetAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC85B621E9DD3C00C888DE /* extensionSetAnimationDelegate.swift */; };
+		5DEC85BE21E9DD3D00C888DE /* extensionSetAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC85B721E9DD3C00C888DE /* extensionSetAnimation.swift */; };
+		5DEC85BF21E9DD3D00C888DE /* extensionSetElementInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC85B821E9DD3D00C888DE /* extensionSetElementInView.swift */; };
+		5DEC85C021E9DD3D00C888DE /* extensionSetSizeElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC85B921E9DD3D00C888DE /* extensionSetSizeElement.swift */; };
+		5DEC85C121E9DD3D00C888DE /* extensionMakeGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC85BA21E9DD3D00C888DE /* extensionMakeGradient.swift */; };
+		5DEC85C221E9DD3D00C888DE /* extensionSetPositionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC85BB21E9DD3D00C888DE /* extensionSetPositionElement.swift */; };
+		5DEC85C421E9DD6F00C888DE /* HelperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC85C321E9DD6F00C888DE /* HelperViewController.swift */; };
+		5DEC85C621E9DE6900C888DE /* extensionNativeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC85C521E9DE6900C888DE /* extensionNativeClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		5DEC85A921E9DD1800C888DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DEC85AC21E9DD1800C888DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DEC85AE21E9DD1800C888DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DEC85B521E9DD3C00C888DE /* extesionInizializeObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extesionInizializeObject.swift; sourceTree = "<group>"; };
+		5DEC85B621E9DD3C00C888DE /* extensionSetAnimationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensionSetAnimationDelegate.swift; sourceTree = "<group>"; };
+		5DEC85B721E9DD3C00C888DE /* extensionSetAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensionSetAnimation.swift; sourceTree = "<group>"; };
+		5DEC85B821E9DD3D00C888DE /* extensionSetElementInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensionSetElementInView.swift; sourceTree = "<group>"; };
+		5DEC85B921E9DD3D00C888DE /* extensionSetSizeElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensionSetSizeElement.swift; sourceTree = "<group>"; };
+		5DEC85BA21E9DD3D00C888DE /* extensionMakeGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensionMakeGradient.swift; sourceTree = "<group>"; };
+		5DEC85BB21E9DD3D00C888DE /* extensionSetPositionElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensionSetPositionElement.swift; sourceTree = "<group>"; };
+		5DEC85C321E9DD6F00C888DE /* HelperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperViewController.swift; sourceTree = "<group>"; };
+		5DEC85C521E9DE6900C888DE /* extensionNativeClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensionNativeClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +56,7 @@
 		5DEC859621E9DD1700C888DE = {
 			isa = PBXGroup;
 			children = (
+				5DEC85B421E9DD2A00C888DE /* HelperViewController */,
 				5DEC85A121E9DD1700C888DE /* InterfaceHelperCreator */,
 				5DEC85A021E9DD1700C888DE /* Products */,
 			);
@@ -62,6 +81,22 @@
 				5DEC85AE21E9DD1800C888DE /* Info.plist */,
 			);
 			path = InterfaceHelperCreator;
+			sourceTree = "<group>";
+		};
+		5DEC85B421E9DD2A00C888DE /* HelperViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5DEC85C321E9DD6F00C888DE /* HelperViewController.swift */,
+				5DEC85B821E9DD3D00C888DE /* extensionSetElementInView.swift */,
+				5DEC85BB21E9DD3D00C888DE /* extensionSetPositionElement.swift */,
+				5DEC85B921E9DD3D00C888DE /* extensionSetSizeElement.swift */,
+				5DEC85B521E9DD3C00C888DE /* extesionInizializeObject.swift */,
+				5DEC85BA21E9DD3D00C888DE /* extensionMakeGradient.swift */,
+				5DEC85B721E9DD3C00C888DE /* extensionSetAnimation.swift */,
+				5DEC85B621E9DD3C00C888DE /* extensionSetAnimationDelegate.swift */,
+				5DEC85C521E9DE6900C888DE /* extensionNativeClass.swift */,
+			);
+			path = HelperViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +172,15 @@
 			files = (
 				5DEC85A521E9DD1700C888DE /* ViewController.swift in Sources */,
 				5DEC85A321E9DD1700C888DE /* AppDelegate.swift in Sources */,
+				5DEC85BD21E9DD3D00C888DE /* extensionSetAnimationDelegate.swift in Sources */,
+				5DEC85C621E9DE6900C888DE /* extensionNativeClass.swift in Sources */,
+				5DEC85BF21E9DD3D00C888DE /* extensionSetElementInView.swift in Sources */,
+				5DEC85C421E9DD6F00C888DE /* HelperViewController.swift in Sources */,
+				5DEC85BE21E9DD3D00C888DE /* extensionSetAnimation.swift in Sources */,
+				5DEC85BC21E9DD3D00C888DE /* extesionInizializeObject.swift in Sources */,
+				5DEC85C221E9DD3D00C888DE /* extensionSetPositionElement.swift in Sources */,
+				5DEC85C021E9DD3D00C888DE /* extensionSetSizeElement.swift in Sources */,
+				5DEC85C121E9DD3D00C888DE /* extensionMakeGradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
